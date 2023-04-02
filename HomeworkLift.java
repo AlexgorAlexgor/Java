@@ -25,7 +25,7 @@ public class HomeworkLift {
             System.out.println("Elevator can't move up");
             stepLifts = 0;
         } else {
-            if (heightBuilding < upFloors) {
+            if (heightBuilding <= upFloors) {
                 System.out.println("the elevator has risen to the very top");
                 stepLifts = 1;
             } else {
